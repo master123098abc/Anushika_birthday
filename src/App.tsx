@@ -29,9 +29,9 @@ export const BIRTHDAY_CONFIG = {
   friendName: 'Anushika',
   senderName: 'Hirok',
 
-  // Birthday date in IST (Asia/Kolkata): 14 December
+  // Birthday date in IST (Asia/Kolkata): 3 December
   birthdayMonth: 12,
-  birthdayDay: 14,
+  birthdayDay: 3,
 
   // Tip: Set this to `true` to start directly in Birthday Mode (or use the hero button)
   forceBirthdayMode: false,
@@ -40,7 +40,7 @@ export const BIRTHDAY_CONFIG = {
   hero: {
     comingSoonTitle: 'Happy Birthday Anushika 🎂',
     comingSoonSubtitle:
-      'Counting down every second in IST until 14 December — your special day is almost here 🎉',
+      'Counting down every second in IST until 3 December — your special day is almost here 🎉',
     birthdayTitle: 'Happy Birthday Anushika 🎂',
     birthdaySubtitle:
       'Today is all about celebrating you, your laughter, and every wonderful memory we share.',
@@ -53,7 +53,7 @@ export const BIRTHDAY_CONFIG = {
     paragraphs: [
       'Having you as my best friend has been one of the greatest blessings of my life. No matter how busy life gets, talking to you always feels like coming home—full of comfort, terrible jokes, and genuine laughter.',
       'Thank you for every late-night conversation, every quiet moment where you simply understood without needing words, and every time you showed up when it mattered most.',
-      'As 14 December gets closer, I just want you to know how deeply appreciated you are. Here is to many more sunsets, spontaneous coffee runs, and unforgettable years ahead.',
+      'As 3 December gets closer, I just want you to know how deeply appreciated you are. Here is to many more sunsets, spontaneous coffee runs, and unforgettable years ahead.',
     ],
     signOff: 'Always your best friend,',
   },
@@ -244,7 +244,7 @@ export const BIRTHDAY_CONFIG = {
       id: 'wish-6',
       title: 'Best Year Yet',
       message:
-        '14 December belongs to you—may the year ahead be your happiest, brightest, most magical one yet.',
+        '3 December belongs to you—may the year ahead be your happiest, brightest, most magical one yet.',
       from: 'Hirok',
     },
   ] as BirthdayWish[],

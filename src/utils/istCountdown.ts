@@ -44,7 +44,7 @@ export function getISTCountdown(
   let targetYear = istYear;
   let targetUtcMs = thisYearTargetUtcMs;
 
-  // If Dec 14 of the current IST year has already passed, pick next year automatically.
+  // If this year's birthday in IST has already passed, pick next year automatically.
   if (nowMs >= thisYearTargetUtcMs) {
     targetYear = istYear + 1;
     targetUtcMs =

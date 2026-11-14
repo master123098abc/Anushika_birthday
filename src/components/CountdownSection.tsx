@@ -69,7 +69,7 @@ export function CountdownSection({
             >
               <p className="inline-flex items-center gap-2 text-xs sm:text-sm font-medium tracking-wide text-[#8c5a7a] mb-3">
                 <Calendar className="w-3.5 h-3.5 text-[#c89b3c]" aria-hidden="true" />
-                <span>14 December {countdown.targetYear}</span>
+                <span>3 December {countdown.targetYear}</span>
                 <span aria-hidden="true">·</span>
                 <span>00:00 IST</span>
               </p>
@@ -100,7 +100,7 @@ export function CountdownSection({
 
                   {/* Live Animated IST Countdown Grid */}
                   <div
-                    aria-label="Live countdown to December 14 midnight IST"
+                    aria-label="Live countdown to December 3 midnight IST"
                     className="mt-7 grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-3.5 max-w-xl mx-auto lg:mx-0"
                   >
                     {units.map((unit) => (
@@ -127,7 +127,7 @@ export function CountdownSection({
                     ))}
                   </div>
 
-                  {/* Subtle progress toward Dec 14 */}
+                  {/* Subtle progress toward Dec 3 */}
                   <div className="mt-4 max-w-xl mx-auto lg:mx-0">
                     <div className="flex items-center justify-between text-xs text-[#7d5d84] mb-1.5">
                       <span>Countdown Progress</span>
